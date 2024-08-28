@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <title> Mi Pagina </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset = "utf8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' type = 'text/css' href = 'index.css'>
+    </head>
+    <body>
+
+<!-- NAVEGADOR ---------------------------------------------------------------------------------->
+
+        <nav class = 'nav'> 
+            <img class = 'nav_logo' src = 'imagenes/logo-blanco.png'>
+            <img class = 'nav_menu' src = 'imagenes/bars.svg'>
+            <div class = 'nav_div'> 
+                <p class = 'div_link'> quien soy </p>
+                <p class = 'div_link'> servicios </p>
+                <p class = 'div_link'> escribeme </p>
+            </div>
+        </nav>
+
+<!-- MENU ---------------------------------------------------------------------------------->
+
+        <main class = 'main'> 
+            <h1 class = 'main_titulo'> Bienvenidos <br> a mi sitio web </h1>
+            <img class = 'main_foto' src = 'imagenes/foto.png'>
+        </main>
+
+<!-- PRESENTACION ---------------------------------------------------------------------------------->
+
+        <section class = 'presentacion'>
+           <h2 class = 'presentacion_titulo grid-item'> Soy Facundo </h2>
+           <p class = 'presentacion_descripcion grid-item'> Soy Facundo Rodriguez, un programador web de 25 años con base en Argentina, especializado en desarrollo full stack con habilidades en CSS3, HTML5, JavaScript, Node.js, TypeScript, y SQLite. Además, tengo experiencia en el uso de GitHub para el control de versiones. Hablo inglés con fluidez, lo que me permite colaborar efectivamente en entornos internacionales. </p>
+           <img class = 'presentacion_sticker grid-item' src = 'imagenes/check.png'> 
+        </section>
+ 
+<!-- SERVICIOS ---------------------------------------------------------------------------------->
+
+        <section class = 'servicios'>
+            <h2 class = 'servicios_titulo'> Mis servicios </h2>
+            <div class = 'servicios_div'> 
+                <article class = 'servicios_articulo'>
+                    <img class = 'articulo_sticker' src = 'imagenes/desktop.png'>
+                    <h4 class = 'articulo_titulo'> Backend </h4>
+                    <p class = 'articulo_parrafo'> Soy un programador backend especializado en tecnologías como JavaScript, Node.js, TypeScript y SQLite. Me encargo de desarrollar y mantener la lógica del servidor y la base de datos de aplicaciones web. Diseño APIs eficientes y escalables, optimiza el rendimiento de las aplicaciones y garantiza la seguridad de los datos. </p>
+                </article>
+
+                <article class = 'servicios_articulo'>
+                    <img class = 'articulo_sticker' src = 'imagenes/desktop.png'>
+                    <h4 class = 'articulo_titulo'> Frontend </h4>
+                    <p class = 'articulo_parrafo'> Experto en JavaScript, CSS y HTML. Me encargo de desarrollar la interfaz visual y la interactividad de las aplicaciones web. Creo diseños atractivos y responsivos utilizando HTML para estructurar el contenido, CSS para darle estilo y JavaScript para agregar funcionalidad. Domino técnicas de maquetación, animaciones y efectos visuales para ofrecer experiencias de usuario cautivadoras. </p>
+                </article>
+
+                <article class = 'servicios_articulo'>
+                    <img class = 'articulo_sticker' src = 'imagenes/desktop.png'>
+                    <h4 class = 'articulo_titulo'> Ingles </h4>
+                    <p class = 'articulo_parrafo'> Poseo un excelente dominio del idioma inglés, tanto en la comunicación oral como escrita. Esta habilidad me permite acceder a una amplia gama de recursos técnicos, documentación y tutoriales en inglés, manteniéndome actualizado con las últimas tendencias y tecnologías en el campo de la programación. Además, mi fluidez en inglés me permite colaborar eficazmente con equipos internacionales, participar en conferencias. </p>
+                </article>
+            </div>
+        </section>
+
+<!-- FORMULARIO ---------------------------------------------------------------------------------->
+
+        <form class = 'form'> 
+            <div class = 'form_div'>
+                <h2 class = 'div_titulo'> Escribeme </h2>
+            </div>
+            <div class = 'form_div'>
+                <label class = 'div_label' for = 'nombre'> NOMBRE </label>
+                <input class = 'div_input' id = 'nombre' type = 'text'>
+                <label class = 'div_label' for = 'email'> EMAIL </label>
+                <input class = 'div_input' id = 'nombre' type = 'text'>
+                <label class = 'div_label' for = 'mensaje'> Mensaje </label>
+                <input class = 'div_input' id = 'mensaje' type = 'text'>
+                <input class = 'div_buttom' type = 'submit'>
+            </div>
+        </form>
+
+<!-- FOOTER ---------------------------------------------------------------------------------->
+
+        <footer class = 'footer'>
+            <div class = 'footer_empresa'> 
+                <img class = 'empresa_logo' src = 'imagenes/logo-gris.png'>
+                <p class = 'empresa_texto'> © 2021 Marce </p>
+            </div>
+         
+            <div class = 'footer_redes'> 
+                <img class = 'redes_logo' src = 'imagenes/instagram.png'>
+                <p class = 'redes_nombre'> Instagram </p>
+                <img class = 'redes_logo' src = 'imagenes/linkedin.png'>
+                <p class = 'redes_nombre'> Linkedin </p>
+                <img class = 'redes_logo' src = 'imagenes/github.png'>
+                <p class = 'redes_nombre'> Github </p>
+            </div>
+        
+        </footer>
+
+    </body>
+</html>
